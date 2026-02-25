@@ -35,6 +35,13 @@
 
 Рисунок 3 – Оригинальное изображение
 
+Ядро 5х5 при сигма=0.8
+![Ядро 5х5 при сигма=0.8](https://github.com/Valya1200/Computer_vision/blob/main/images/5x5=0.8.png?raw=true)
+
+Ядро 5х5 при сигма=1.3
+![Ядро 5х5 при сигма=1.3](https://github.com/Valya1200/Computer_vision/blob/main/images/5x5=1.3.png?raw=true)
+
+
 ![Результаты использования фильтра Гаусса](https://github.com/Valya1200/Computer_vision/blob/main/images/tabl2.png?raw=true)
 
 Таблица 2 – Результаты использования фильтра Гаусса
