@@ -184,7 +184,7 @@ k=2 — поворот на 180°
 k=3 — поворот на 90° по часовой (= 90° против часовой)
 axes=(0,1) — поворачиваются первые две размерности (высота, ширина)
 
-![Результат поворотов](https://github.com/Valya1200/Computer_vision/blob/main/fig12.png?raw=true)
+![Результат поворотов](https://github.com/Valya1200/Computer_vision/blob/main/images/fig12.png?raw=true)
 
 Рисунок 12 – Результат поворотов
 
