@@ -2,15 +2,15 @@
 ## 1.1 Медианный фильтр
 Медианный фильтр предназначен справляться со случайными импульсами. Если среднее арифметическое получая на вход (10, 12, 55), выдаст 25.67, то медиан выдаст 12
 
-![Оригинальное зашумленное изображение](https://github.com/Valya1200/Computer_vision/blob/main/fig1.png?raw=true)
+![Оригинальное зашумленное изображение](https://github.com/Valya1200/Computer_vision/blob/main/images/fig1.png?raw=true)
 
 Рисунок 1 – Оригинальное зашумленное изображение
 
-![Гистограмма зашумленного изображения «соль и перец»](https://github.com/Valya1200/Computer_vision/blob/main/fig2.png?raw=true)
+![Гистограмма зашумленного изображения «соль и перец»](https://github.com/Valya1200/Computer_vision/blob/main/images/fig2.png?raw=true)
 
 Рисунок 2 – Гистограмма зашумленного изображения «соль и перец»
 
-![Гистограмма зашумленного изображения «соль и перец»](https://github.com/Valya1200/Computer_vision/blob/main/tabl1.png?raw=true)
+![Гистограмма зашумленного изображения «соль и перец»](https://github.com/Valya1200/Computer_vision/blob/main/images/tabl1.png?raw=true)
 
 Таблица 1 – Результаты использования медианного фильтра
 
@@ -27,15 +27,15 @@
 
 **Ядро фильтра Гаусса**
 
-![Ядро фильтра Гаусса](https://github.com/Valya1200/Computer_vision/blob/main/Gauss.png?raw=true)
+![Ядро фильтра Гаусса](https://github.com/Valya1200/Computer_vision/blob/main/images/Gauss.png?raw=true)
 
 
 
-![Оригинальное изображение](https://github.com/Valya1200/Computer_vision/blob/main/fig3.png?raw=true)
+![Оригинальное изображение](https://github.com/Valya1200/Computer_vision/blob/main/images/fig3.png?raw=true)
 
 Рисунок 3 – Оригинальное изображение
 
-![Результаты использования фильтра Гаусса](https://github.com/Valya1200/Computer_vision/blob/main/tabl2.png?raw=true)
+![Результаты использования фильтра Гаусса](https://github.com/Valya1200/Computer_vision/blob/main/images/tabl2.png?raw=true)
 
 Таблица 2 – Результаты использования фильтра Гаусса
 
@@ -63,11 +63,11 @@
 # 2.	Морфологические операции
 ## 2.1 Эрозия
 
-![Бинарное изображение (слева) и структруный элемент (справа)](https://github.com/Valya1200/Computer_vision/blob/main/fig4.png?raw=true)
+![Бинарное изображение (слева) и структруный элемент (справа)](https://github.com/Valya1200/Computer_vision/blob/main/images/fig4.png?raw=true)
 
 Рисунок 4 – Бинарное изображение (слева) и структруный элемент (справа)
 
-![Изображение после эрозии](https://github.com/Valya1200/Computer_vision/blob/main/fig5.png?raw=true)
+![Изображение после эрозии](https://github.com/Valya1200/Computer_vision/blob/main/images/fig5.png?raw=true)
 
 Рисунок 5 – Изображение после эрозии
 
@@ -90,13 +90,13 @@
 В результате применения эрозии белые объекты на бинарном изображении уменьшаются в размере. Границы объектов отступают внутрь примерно на 2 пикселя с каждой стороны. Тонкие элементы могут полностью исчезнуть, а шум в виде мелких белых точек гарантированно удаляется.
 
 
-![Результаты использования эрозии](https://github.com/Valya1200/Computer_vision/blob/main/tab3.png?raw=true)
+![Результаты использования эрозии](https://github.com/Valya1200/Computer_vision/blob/main/images/tab3.png?raw=true)
 
 Таблица 3 – Результаты использования эрозии
 
 ## 2.2 Дилатация 
 
-![Изображение после дилатации](https://github.com/Valya1200/Computer_vision/blob/main/fig6.png?raw=true)
+![Изображение после дилатации](https://github.com/Valya1200/Computer_vision/blob/main/images/fig6.png?raw=true)
 
 Рисунок 6 – Изображение после дилатации
 
@@ -106,14 +106,14 @@
 Дилатация градационного изображения реализуется путем последовательного анализа локальных окон размером 9x9. Для каждого пикселя результирующего изображения извлекается соответствующее окно из дополненного исходного изображения. Значение центрального пикселя результата устанавливается равным максимальному значению яркости среди всех пикселей данного окна.
 Перед сверткой изображение дополняется нулевой рамкой шириной 4 пикселя с каждой стороны. Это обеспечивает корректную обработку пикселей у границ изображения без эффекта обрезания.
 
-![Результаты использования дилатации](https://github.com/Valya1200/Computer_vision/blob/main/tab4.png?raw=true)
+![Результаты использования дилатации](https://github.com/Valya1200/Computer_vision/blob/main/images/tab4.png?raw=true)
 
 Таблица 4 – Результаты использования дилатации
 
 
 # 3. Прочие операции
 ## 3.1 пороговая бинаризация (для rgb и grayscale изображения)
-![Результаты использования пороговой бинаризации](https://github.com/Valya1200/Computer_vision/blob/main/tab5.png?raw=true)
+![Результаты использования пороговой бинаризации](https://github.com/Valya1200/Computer_vision/blob/main/images/tab5.png?raw=true)
 
 Таблица 5 – Результаты использования пороговой бинаризации
 
@@ -126,7 +126,7 @@ R — интенсивность красного канала (0-255)
 G — интенсивность зеленого канала (0-255)
 B — интенсивность синего канала (0-255)
 
-![Порог T=128 по каждому каналу RGB](https://github.com/Valya1200/Computer_vision/blob/main/fig7.png?raw=true)
+![Порог T=128 по каждому каналу RGB](https://github.com/Valya1200/Computer_vision/blob/main/images/fig7.png?raw=true)
 
 Рисунок 7 – Порог T=128 по каждому каналу RGB
 
@@ -142,7 +142,7 @@ B — интенсивность синего канала (0-255)
 Пример: h(100) = 1500 пикселей имеют яркость 100
 Этап 2. Вычисление кумулятивной функции распределения (CDF)
 
-![Функция распределения](https://github.com/Valya1200/Computer_vision/blob/main/fig8.png?raw=true)
+![Функция распределения](https://github.com/Valya1200/Computer_vision/blob/main/images/fig8.png?raw=true)
 
 Рисунок 8 – Функция распределения
 
@@ -157,15 +157,15 @@ s_r = CDF(r) × 255 / total_pixels
 Результат обработки
 После выполнения алгоритма гистограмма результирующего изображения становится равномерно распределенной по всему диапазону 0-255. Кумулятивная функция распределения (CDF) выровненного изображения представляет собой прямую линию, что соответствует идеальному равномерному распределению яркостей.
 
-![Результат работы выравнивания гистограммы](https://github.com/Valya1200/Computer_vision/blob/main/fig9.png?raw=true)
+![Результат работы выравнивания гистограммы](https://github.com/Valya1200/Computer_vision/blob/main/images/fig9.png?raw=true)
 
 Рисунок 9 – Результат работы выравнивания гистограммы
 
-![Гистограммы изображений до и после выравнивания гистограмм](https://github.com/Valya1200/Computer_vision/blob/main/fig10.png?raw=true)
+![Гистограммы изображений до и после выравнивания гистограмм](https://github.com/Valya1200/Computer_vision/blob/main/images/fig10.png?raw=true)
 
 Рисунок 10 –  Гистограммы изображений до и после выравнивания гистограмм
 
-![Кумулятивные функции до и после выравнивания гистограмм](https://github.com/Valya1200/Computer_vision/blob/main/fig11.png?raw=true)
+![Кумулятивные функции до и после выравнивания гистограмм](https://github.com/Valya1200/Computer_vision/blob/main/images/fig11.png?raw=true)
 
  Рисунок 11 – Кумулятивные функции до и после выравнивания гистограмм
  
