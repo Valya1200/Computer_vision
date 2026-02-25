@@ -1,6 +1,6 @@
 1.	Фильтры
 1.1 Медианный фильтр
 Медианный фильтр предназначен справляться со случайными импульсами. Если среднее арифметическое получая на вход (10, 12, 55), выдаст 25.67, то медиан выдаст 12
-![alt text](https://raw.githubusercontent.com/Valya1200/Computer_vision/blob/main/fig1.png
+![Image alt](https://github.com/Valya1200/Computer_vision/blob/main/fig1.png?raw=true)
 
 Рисунок 1 – Оригинальное зашумленное изображение
