@@ -7,7 +7,6 @@
 
 # ШАГ 2: Сопоставление точек
 
-![Оригинальное зашумленное изображение](https://github.com/Valya1200/Computer_vision/blob/main/images/fig1.png?raw=true)
 ## ВИЗУАЛИЗАЦИЯ 2: Сопоставление с SIFT (для каждой пары)
 #  ШАГ 3: Построение траектории
 ![sopostav1](https://github.com/Valya1200/Computer_vision/blob/main/images/sopostav1.png?raw=true)
