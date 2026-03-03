@@ -72,4 +72,4 @@ array([[67, 67, 68, ..., 56, 56, 56],
 
 Из полученных данных были извлечены координаты X (D1) и Y (D2) для каждого кадра. На их основе был построен график траектории движения мыши на плоскости.
 
-![mice_traj(https://github.com/Valya1200/Computer_vision/blob/main/images/mice_traj.png?raw=true)
+![mice_traj](https://github.com/Valya1200/Computer_vision/blob/main/images/mice_traj.png?raw=true)
