@@ -82,7 +82,11 @@ array([[67, 67, 68, ..., 56, 56, 56],
 
 ![mice_ggray](https://github.com/Valya1200/Computer_vision/blob/main/images/mice_ggray.png?raw=true)
 
+Изображение мышки в оттенках серого
+
 ![mice_center](https://github.com/Valya1200/Computer_vision/blob/main/images/mice_center.png?raw=true)
+
+Изображение мышки и ее центра масс(черная точка)
 
 # Построение траектории движения мыши на плоскости
 
