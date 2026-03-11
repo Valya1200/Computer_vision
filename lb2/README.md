@@ -16,6 +16,8 @@
 
 (Gy,Gx) Маски Собеля
 
+![Sobel](https://github.com/Valya1200/Computer_vision/blob/main/images/gradient_Sobel.png?raw=true)
+
 2. Построение матрицы отклика углов: M = [[Ixx, Ixy], [Ixy, Iyy]]
 3. Вычисление минимального собственного значения матрицы M
 4. Поиск локальных максимумов отклика
