@@ -4,17 +4,17 @@
 
 ## ШАГ 1 Загрузка данных 
 За основу был составлен датасет по сегментации участков подстилающих поверхностей 
+Состояющий из 10 классов: синий, красный, зеленый, розовый, серый, белый, светло-серый, светло-зеленый, бордовый, черный
+
 Тестовая выборка – 15 изображений
 Тренировочная выборка – 222 изображений
 Валидационная выборка -34 изображений
 Фотографии размером 256x256 
-<img width="987" height="468" alt="image" src="https://github.com/user-attachments/assets/7a0e9ae4-85a4-4032-a5e6-6d39877493ce" />
+
+Выборка данных
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/7a0e9ae4-85a4-4032-a5e6-6d39877493ce" />
 
 <img width="986" height="521" alt="image" src="https://github.com/user-attachments/assets/fd771cb2-d0df-4bfe-b9c6-10944915175f" />
-
-### Наглядная схема этапов
-
-<img width="897" height="391" alt="2026-04-06_00-37-52" src="https://github.com/user-attachments/assets/522cb6ce-8925-4675-a680-3490a124e1d9" />
 
 
 ## Общие характеристики разработанной модели с архитектурой U-Net 
@@ -28,6 +28,15 @@
 
 Аугментация данных -> 1548 изображений
 горизонтальное отражение, изменение размера,  случайная обрезка, добавление паддинга, добавление одной из аугментации из групп: размытие, шум, резкость и цвет, яркость, контраст.
+<img width="800" height="378" alt="image" src="https://github.com/user-attachments/assets/90a6a137-e9c6-457e-8840-321ee9b9184f" />
+
+
+<img width="348" height="354" alt="image" src="https://github.com/user-attachments/assets/c460224e-d2ca-4b24-bd0d-4d1eed1aded6" />
+
+
+### Наглядная схема этапов
+
+<img width="897" height="391" alt="2026-04-06_00-37-52" src="https://github.com/user-attachments/assets/522cb6ce-8925-4675-a680-3490a124e1d9" />
 
 
 ## Результаты работы 
