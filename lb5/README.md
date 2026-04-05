@@ -12,9 +12,10 @@
 Фотографии размером 256x256 
 
 Выборка данных
-<img width="300" height="100" alt="image" src="https://github.com/user-attachments/assets/7a0e9ae4-85a4-4032-a5e6-6d39877493ce" />
 
-<img width="300" height="100" alt="image" src="https://github.com/user-attachments/assets/fd771cb2-d0df-4bfe-b9c6-10944915175f" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/7a0e9ae4-85a4-4032-a5e6-6d39877493ce" />
+
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/fd771cb2-d0df-4bfe-b9c6-10944915175f" />
 
 
 ## Общие характеристики разработанной модели с архитектурой U-Net 
