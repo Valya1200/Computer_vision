@@ -20,6 +20,7 @@
 
 ## Общие характеристики разработанной модели с архитектурой U-Net 
 
+<img width="850" height="229" alt="image" src="https://github.com/user-attachments/assets/7771e8a6-a8aa-404b-856a-85d3b4229d55" />
 
 Энкодер реализован на основе ResNet и включает: 5 уровней даунсэмплинга, Использование strided convolutions
 Декодер включает: 5 уровней апсэмплинга, Механизмы внимания (SCSE-блоки), Skip-connections 
@@ -29,6 +30,7 @@
 Параметры обучения: Оптимизатор: Adam (lr = 0.0005), Функция потерь: DiceLoss, Размер батча: 32,Количество эпох: 80
 
 <img width="1068" height="681" alt="image" src="https://github.com/user-attachments/assets/84ae0e2b-65fb-483d-a983-9233ed7b1731" />
+
 
 
 Аугментация данных -> 1548 изображений
