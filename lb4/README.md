@@ -116,6 +116,7 @@ Macro F1-Score	Средний F1 по всем классам
 
 <img width="986" height="541" alt="image" src="https://github.com/user-attachments/assets/115e6135-e22e-45ba-ba38-13dc45614d97" />
 
+Точность на тестовой выборке составила Test Loss: 0.4576 Test Accuracy: 0.8481 (84.81%)
 
 <img width="959" height="536" alt="image" src="https://github.com/user-attachments/assets/261c370f-834f-4584-a816-851c4c0b598c" />
 
