@@ -53,6 +53,13 @@ EfficientNetB0:Оптимальный баланс между точностью
 
 <img width="320" height="1162" alt="image" src="https://github.com/user-attachments/assets/7b5d3fe2-9fa9-408d-9822-b377c83c6e0b" />
 
+Функция активации RELU
+
+<img width="430" height="441" alt="image" src="https://github.com/user-attachments/assets/1e625f66-cd44-4d42-b0e6-3d7e1e582006" />
+
+Пулинг - GlobalAveragePooling
+<img width="881" height="555" alt="image" src="https://github.com/user-attachments/assets/607f5979-745c-4bc4-9eb7-463eb6496fac" />
+
 
 ## Шаг 6. ДВУХФАЗНОЕ ОБУЧЕНИЕ
 ### Фаза 1: Обучение классификатора
