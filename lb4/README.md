@@ -53,7 +53,8 @@ EfficientNetB0:Оптимальный баланс между точностью
 
 <img width="780" height="314" alt="image" src="https://github.com/user-attachments/assets/eb040dc1-8f11-400d-83f4-5c32ca24e233" />
 
-АРХИТЕКТУРА ПОЛНОЙ МОДЕЛИ
+### АРХИТЕКТУРА ПОЛНОЙ МОДЕЛИ
+
 <img width="320" height="1162" alt="image" src="https://github.com/user-attachments/assets/7b5d3fe2-9fa9-408d-9822-b377c83c6e0b" />
 
 Функция активации RELU
@@ -93,7 +94,9 @@ Accuracy	Доля правильных ответов
 <img width="1085" height="605" alt="image" src="https://github.com/user-attachments/assets/a9addde9-9dd7-4ee2-a947-7ae16a8d321b" />
 
 Loss	Значение функции потерь
+
 <img width="348" height="84" alt="image" src="https://github.com/user-attachments/assets/b2b34d29-976f-4647-99ed-37bfedfac940" />
+
 L - значение loss (ошибки)
 N - количество классов
 y_i - истинное значение (0 или 1) для класса i
