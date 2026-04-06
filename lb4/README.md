@@ -1,4 +1,4 @@
-# Лабораторная работа №4 
+<img width="780" height="314" alt="image" src="https://github.com/user-attachments/assets/62587561-9c4a-4c1d-8b6c-e8b7c00d505b" /># Лабораторная работа №4 
 
 Цель: Разработать классификатор
 
@@ -50,6 +50,9 @@ CoarseDropout	30%	Вырезание случайных прямоугольны
 EfficientNetB0:Оптимальный баланс между точностью и вычислительной эффективностью
 Размер 224×224 идеально подходит для задачи
 Не требует больших вычислительных ресурсов (8-12 GB VRAM)
+
+<img width="780" height="314" alt="image" src="https://github.com/user-attachments/assets/eb040dc1-8f11-400d-83f4-5c32ca24e233" />
+
 
 <img width="320" height="1162" alt="image" src="https://github.com/user-attachments/assets/7b5d3fe2-9fa9-408d-9822-b377c83c6e0b" />
 
