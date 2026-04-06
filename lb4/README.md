@@ -1,4 +1,4 @@
-<img width="780" height="314" alt="image" src="https://github.com/user-attachments/assets/62587561-9c4a-4c1d-8b6c-e8b7c00d505b" /># Лабораторная работа №4 
+# Лабораторная работа №4 
 
 Цель: Разработать классификатор
 
