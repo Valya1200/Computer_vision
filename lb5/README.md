@@ -48,12 +48,12 @@
 
 ## Результаты работы 
 
+<img width="1330" height="512" alt="image" src="https://github.com/user-attachments/assets/61f12c25-2539-4a4a-9f82-93574b1611d0" />
+
 Метрика IoU
 
-<img width="1033" height="384" alt="image" src="https://github.com/user-attachments/assets/34e938fb-5f09-4534-8636-0ee26294b12a" />
+<img width="500" height="384" alt="image" src="https://github.com/user-attachments/assets/34e938fb-5f09-4534-8636-0ee26294b12a" />
 
-
-<img width="1330" height="512" alt="image" src="https://github.com/user-attachments/assets/61f12c25-2539-4a4a-9f82-93574b1611d0" />
 
 <img width="1070" height="555" alt="image" src="https://github.com/user-attachments/assets/666f7be5-8499-44e9-aefd-f0e5c1857b71" />
 
